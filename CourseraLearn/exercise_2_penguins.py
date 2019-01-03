@@ -5,5 +5,6 @@ potbelly = '/(  _  )\\'
 feet = '  ^^ ^^ '
 
 n = int(input())
-penguins = (hairP + '    ') * n + '\n' + (eyes + '   ') * n + '\n' + (beak + '  ') * n + '\n' + (potbelly + ' ') * n + '\n' + (feet + '  ') * n + '\n'
+if n < 1000:
+    penguins = (hairP + '    ') * n + '\n' + (eyes + '   ') * n + '\n' + (beak + '  ') * n + '\n' + (potbelly + ' ') * n + '\n' + (feet + '  ') * n + '\n'
 print(penguins)
